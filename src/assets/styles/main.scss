@@ -1,0 +1,23 @@
+@use './color';
+@use './font';
+@forward './color';
+@forward './font';
+@forward './layout'; // 방금 만든 layout을 내보냄
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
